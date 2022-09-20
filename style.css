@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+ /* border: 2px solid red; */
+ padding: 0.5rem 0.2rem;
+    
+}
+.card{
+    margin: 1rem 1rem;
+    pad
+    border: 2px solid red;
+}
+.buttons{
+    border: 2px solid black;
+    width: 50%;
+    /* text-align: center; */
+    border-radius: 10px;
+}
+.buttons button{
+    border: none;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0.5rem 0.5rem  ;
+    
+}
+.sayi{
+    background-color: white;
+}
+.img1{
+    width: 92%;
+    margin: 1rem 1rem;
+}

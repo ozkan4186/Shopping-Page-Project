@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="text-center" >
+    <h1 class="display-3 text-center text-danger">Shopping Page</h1>
+    <div class="container bg-warning d-flex justify-content-center w-50 mt-4 ">
+        <div class="card mb-3 mt-2 " style="  max-width: 540px; border: none; ">
+            <div class="row g-0 text ">
+                <div class="col-md-4">
+                    <img src="./img/photo1.png" class=" img1 img-fluid rounded-start img-thumbnail " alt="...">
+                </div>
+                <div class="col-md-8 ">
+                    <div class="card-body ">
+                        <h5 class="card-title">Vintage Backbag</h5>
+                        <p class="card-text"></p>
+                        <br>
+                        <div class="buttons mb-2">
+                            <button>-</button>
+                            <button class="sayi" >sayı</button>
+                            <button>+</button>
+                        </div>
+                        <button class="remove bg-danger rounded-2 ">Remove</button>
+                        <br>
+                        <p class="Product" >Product Total:${} </p>
+                    </div>
+                </div>
+          
+        </div>
+        <div class="card mb-3" style="max-width: 540px; border: none; ">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./img/photo2.png" class="img-fluid rounded-start img-thumbnail " alt="...">
+                </div>
+                <div class="col-md-8  ">
+                    <div class="card-body">
+                      <h5 class="card-title">Levi Shoes</h5>
+                      <p class="card-text"></p>
+                      <div class="buttons mb-2 ">
+                          <button>-</button>
+                          <button class="sayi" >sayı</button>
+                          <button>+</button>
+                      </div>
+                      <button class="remove bg-danger rounded-2 ">Remove</button>
+                      <p class="Product">Product Total:${} </p>
+                     
+                     
+                     
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card mb-3" style="max-width: 540px; border: none; ">
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="./img/photo3.jpg" class="img-fluid rounded-start img-thumbnail " alt="...">
+                </div>
+                <div class="col-md-8 text-c ">
+                    <div class="card-body">
+                     <h5 class="card-title">Antique Clock</h5>
+                     <p class="card-text"></p>
+                     <div class="buttons mb-2 ">
+                         <button>-</button>
+                         <button class="sayi" >sayı</button>
+                         <button>+</button>
+                     </div>
+                     <button class="remove bg-danger rounded-2 ">Remove</button>
+                     <p class="Product">Product Total:${} </p>
+                    
+                    
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="sub d-flex justify-content-between   ">
+                    <p>Subtotal</p>
+                    <p>$ {} </p>
+                </div>
+                 <div class="tax d-flex justify-content-between  ">
+                     <p>Tax(%18</p>
+                     <p>$ {} </p>
+                 </div>
+                  <div class="ship d-flex justify-content-between ">
+                      <p>Shipping</p>
+                      <p>$ {} </p>
+                  </div>
+                   <div class="tot d-flex justify-content-between  ">
+                       <p>Total</p>
+                       <p>$ {} </p>
+                   </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
