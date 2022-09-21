@@ -6,30 +6,62 @@
 .container{
  /* border: 2px solid red; */
  padding: 0.5rem 0.2rem;
+ width: 40%;
+ background-color:aqua;
     
 }
+body{
+    background-image: url(./img/wallpapic.com\ -\ Sonbahar\,\ Doğa\,\ Akçaağaç\,\ Park\ arka\ plan\ fotoğraf.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .card{
-    margin: 1rem 1rem;
-    pad
+    margin: 2rem 2rem;
+background-color: aqua;
     border: 2px solid red;
 }
 .buttons{
     border: 2px solid black;
     width: 50%;
-    /* text-align: center; */
+    text-align: center;
     border-radius: 10px;
 }
 .buttons button{
     border: none;
     font-size: 20px;
     border-radius: 10px;
-    padding: 0.5rem 0.5rem  ;
+    padding: 0.2rem 0.5rem  ;
     
 }
 .sayi{
-    background-color: white;
+    background-color:aqua;
 }
 .img1{
     width: 92%;
     margin: 1rem 1rem;
 }
+.Product{
+    color: black;
+    font-weight: 500;
+}
+.footer{
+    /* text-decoration: overline; */
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: crimson;
+}
+
+.card-text span::before{
+    content:"$"
+}
+.card-text del::before{
+    content:"$"
+}
+.Product::before{
+    content:"product total: $ "
+}
+.foot::before{
+    content:"$"
+}
+
+
